@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="page-title">Welkome too My Libarary</h1>
+
+    <div id="main">
+        
+        <table id="myTable">
+            <thead>
+                <tr id="header-row">
+                    <th id="title-header"> Title </th>
+                    <th id="author-header"> Author </th>
+                    <th id="pages-header"> Pages </th>
+                    <th id="is-read"> Read? </th>
+                </tr>
+
+            </thead>
+            <tbody id="table-body">
+                <tr class="data-row">
+                    <td>jump</td>
+                    <td>shits</td>
+                    <td>jump</td>
+                    <td>shits</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+    <dialog id="dialog">
+        <form action="#" id="form-modal" open>
+
+            <label for="title">Title</label><br>
+            <input type="text" id="title" name="title"><br>
+            
+            <label for="author">Author</label><br>
+            <input type="text" id="author" name="author">
+
+            <label for="pages"># of Pages</label><br><br>
+            <input type="number" id="pages" name="pages">
+
+            <label for="have-read">Have you read?</label><br>
+            <label for="have-read">Yes</label>
+            <input type="radio" id="have-read" name="have-read">
+
+            <label for="have-read">No</label>
+            <input type="radio" id="not-read" name="have-read">
+
+            <button id="submit">Submit</button>
+        </form>
+    </dialog>
+    <button id="add-book">Add New Book</button>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
